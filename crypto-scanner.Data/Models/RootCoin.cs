@@ -18,6 +18,7 @@ namespace crypto_scanner.Data.Models
             [JsonProperty("symbol")] 
             public string? Symbol { get; set; } 
             [JsonProperty("name")] 
+
             public string? Name { get; set; } 
         }
     }
