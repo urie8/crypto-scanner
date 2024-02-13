@@ -7,7 +7,7 @@ namespace crypto_scanner.Data.Models
     {
             [Key]
             [JsonProperty("id")]
-            public int Id { get; set; }
+            public string Id { get; set; }
             [JsonProperty("symbol")]
             public string? Symbol { get; set; }
             [JsonProperty("name")]

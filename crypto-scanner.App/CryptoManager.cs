@@ -6,7 +6,7 @@
     {
         public CryptoManager()
         {
-            CryptoRepo cryptoRepo = new();
+            //CryptoRepo cryptoRepo = new();
         }
     }
 }

@@ -34,7 +34,7 @@ namespace crypto_scanner.App
 
         }
 
-        public async Task<List<RootCoin>> GetExchanges(int quantity, int pageNr)
+        public async Task<List<RootCoin>> GetExchanges(int quantity, string pageNr)
         {
             HttpResponseMessage response = await Client.GetAsync($"exchanges/?per_page={quantity}&page={pageNr}");
 

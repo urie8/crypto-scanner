@@ -23,7 +23,7 @@ namespace crypto_scanner.UI.Pages
         {
             try
             {
-                List<RootCoin> coins = await new ApiCaller().GetExchanges(10, 1);
+                List<RootCoin> coins = await new ApiCaller().GetExchanges(10, "1");
 
                 if (coins != null)
                 {
