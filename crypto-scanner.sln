@@ -5,9 +5,9 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "crypto-scanner.UI", "crypto-scanner.UI\crypto-scanner.UI.csproj", "{5AD9D707-5FB3-4D31-B983-67216CDBCC24}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "crypto-scanner.Data", "crypto-scanner.Data\crypto-scanner.Data.csproj", "{5AF324FF-D91B-4BC8-9C12-F87AB1030707}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "crypto-scanner.App", "crypto-scanner.App\crypto-scanner.App.csproj", "{D2839983-CD42-4756-A923-0C068BE60112}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "crypto-scanner.App", "crypto-scanner.App\crypto-scanner.App.csproj", "{A96981BD-BA41-47DC-A530-815BE4DDF041}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "crypto-scanner.Data", "crypto-scanner.Data\crypto-scanner.Data.csproj", "{0541B60B-7F74-43D3-B479-8040F1FFD626}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{5AD9D707-5FB3-4D31-B983-67216CDBCC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AD9D707-5FB3-4D31-B983-67216CDBCC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AD9D707-5FB3-4D31-B983-67216CDBCC24}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5AF324FF-D91B-4BC8-9C12-F87AB1030707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5AF324FF-D91B-4BC8-9C12-F87AB1030707}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5AF324FF-D91B-4BC8-9C12-F87AB1030707}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5AF324FF-D91B-4BC8-9C12-F87AB1030707}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A96981BD-BA41-47DC-A530-815BE4DDF041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A96981BD-BA41-47DC-A530-815BE4DDF041}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A96981BD-BA41-47DC-A530-815BE4DDF041}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A96981BD-BA41-47DC-A530-815BE4DDF041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2839983-CD42-4756-A923-0C068BE60112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2839983-CD42-4756-A923-0C068BE60112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2839983-CD42-4756-A923-0C068BE60112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2839983-CD42-4756-A923-0C068BE60112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0541B60B-7F74-43D3-B479-8040F1FFD626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0541B60B-7F74-43D3-B479-8040F1FFD626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0541B60B-7F74-43D3-B479-8040F1FFD626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0541B60B-7F74-43D3-B479-8040F1FFD626}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

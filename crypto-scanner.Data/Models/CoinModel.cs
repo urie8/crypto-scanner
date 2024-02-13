@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace crypto_scanner.Data.Models
 {
-    internal class CoinModel
+    public class CoinModel
     {
     }
 }
