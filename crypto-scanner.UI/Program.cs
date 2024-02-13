@@ -1,4 +1,7 @@
 using crypto_scanner.Data;
+using crypto_scanner.Data.Database;
+using Microsoft.EntityFrameworkCore;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,7 +9,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 
 string? connectionString = builder.Configuration.GetConnectionString("DbConnection");
-builder.Services.AddDbContext<AppDbContext>
+
+builder.Services.AddDbContext<crypto_scanner.Data.AppDbContext>(options => options.UseSqlServer(connectionString));
+
+
+
 
 
 var app = builder.Build();

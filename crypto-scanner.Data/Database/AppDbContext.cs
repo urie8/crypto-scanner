@@ -1,7 +1,7 @@
 ﻿using crypto_scanner.Data.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace crypto_scanner.Data
+namespace crypto_scanner.Data.Database
 {
     public class AppDbContext : DbContext
     {
