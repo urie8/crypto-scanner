@@ -8,10 +8,7 @@ builder.Services.AddRazorPages();
 
 string? connectionString = builder.Configuration.GetConnectionString("DbConnection");
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
-
-
-
-
+builder.Services.AddScoped<CryptoRepo>();
 
 var app = builder.Build();
 
